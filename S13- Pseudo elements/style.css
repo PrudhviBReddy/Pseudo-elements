@@ -1,0 +1,60 @@
+h1::first-letter{
+     color: red;
+}
+
+p::first-line{
+    color: lightcoral;
+}
+
+p::selection{
+    background-color: black;
+    color: red;
+}
+
+h1::after{
+    content: "🙋" ;
+}
+
+h1::before{
+    content: "🅿️";
+}
+mark{
+    background-color: violet;
+    color: white;
+}
+ 
+span{
+    background-color: brown;
+    font-size: 2rem;
+}
+
+li::marker{
+    content: "🧘";
+}
+
+h2::first-letter{
+    color: darkgoldenrod;
+    font-size: 2rem;
+}
+
+li::first-letter{
+    color: red;
+    font-size: 2rem;
+}
+
+.c1{
+    width: 300px;
+    background-color: antiquewhite;
+    border: 10px solid black;
+}
+
+#s1{
+    width: 50px;
+}
+
+#mainHeading{
+  text-align: center;
+  background-color: red;
+  border-radius: 20px;
+  color: white;
+}
